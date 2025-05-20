@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hasibur Rahaman | Portfolio</title>
+  <link rel="stylesheet" href="Responsive.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Hasibur</div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">My Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <img src="hasibur.jpg" alt="Hasibur Rahaman" class="profile-img" />
+      <h2>Hi, I'm Hasibur Rahaman</h2>
+      <p>A Full Stack Web Developer skilled in HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+      <a href="#contact" class="btn">Hire Me</a>
+      <a href="Hasibur_Rahaman.pdf" download class="btn">Download Resume</a>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>I am a passionate web developer skilled in frontend and backend technologies. I’ve built various real-world projects including landing pages, dashboards, and CRUD apps. I'm committed to writing clean, reusable code and continuously learning.</p>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container01">
+      <h3>Skills</h3>
+      <div class="skills-buttons">
+        <a href="#" class="btn1">HTML</a>
+        <a href="#" class="btn1">CSS</a>
+        <a href="#" class="btn1">JavaScript</a>
+        <a href="#" class="btn1">React.js</a>
+        <a href="#" class="btn1">Node.js</a>
+        <a href="#" class="btn1">Express.js</a>
+        <a href="#" class="btn1">MongoDB</a>
+        <a href="#" class="btn1">REST APIs</a>
+        <a href="#" class="btn1">Git</a>
+        <a href="#" class="btn1">GitHub</a>
+        <a href="#" class="btn1">Postman</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services" class="services-section">
+    <div class="container">
+      <h2 class="section-title">My Services</h2>
+      <div class="services-box">
+        <div class="service-card">
+          <h3>Web Development</h3>
+          <p>I build responsive and fast full stack web applications using React, Node.js, MongoDB, and modern APIs.</p>
+        </div>
+        <div class="service-card">
+          <h3>UI Development</h3>
+          <p>Clean and accessible user interfaces with HTML, CSS, JavaScript, and React. I convert designs into pixel-perfect web pages.</p>
+        </div>
+        <div class="service-card">
+          <h3>Graphic Design</h3>
+          <p>I design stunning graphics, logos, and banners using tools like Canva and Photoshop for brand and digital marketing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li><strong>Astrology Website:</strong> React-based astrology UI</li>
+        <li><strong>Medical Store Management:</strong> Full stack inventory system</li>
+        <li><strong>Resume Builder:</strong> Java & MongoDB tool to generate resumes</li>
+        <li><strong>Portfolio Website:</strong> This site!</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:ahasib0987@gmail.com">ahasib0987@gmail.com</a></p>
+      <div class="social-buttons">
+        <a href="https://www.linkedin.com/in/hasibur-rahaman-108b24228/" target="_blank" class="btn">LinkedIn</a>
+        <a href="https://github.com/Hasibur-123" target="_blank" class="btn">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Hasibur Rahaman. All rights reserved.</p>
+    </div>
+    <div class="footer-iconTop">
+      <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.footer-iconTop a').addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  </script>
+</body>
+</html>
