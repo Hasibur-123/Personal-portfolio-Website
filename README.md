@@ -3,7 +3,7 @@
 
 This is my personal portfolio website showcasing my skills, projects, and experience as a Full Stack Web Developer. Built using only **HTML, CSS**, and made fully **responsive** for all devices.
 
-🔗 **Live Demo**: [Click to view](https://yourusername.github.io/personal-portfolio)
+🔗 **Live Demo**: [Click to view](https://flourishing-melomakarona-f79090.netlify.app/)
 
 ## 🛠️ Technologies Used
 - HTML5
